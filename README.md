@@ -66,6 +66,5 @@ overall this project taught me one or two things.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/mukwende2000)
 - Twitter - [@yourusername](https://www.twitter.com/mukwende16)
