@@ -15,6 +15,9 @@ body {
 }
 img {
     max-width: 100%;
+} 
+.flex {
+    display: flex;
 }
 .container {
     width: 100%;
@@ -42,6 +45,11 @@ header {
     color: #fff;
     font-size: 1rem;
     font-weight: bold;
+    transition: opacity .4s;
+}
+button:hover {
+    opacity: .6;
+    cursor: pointer;
 }
 .ios {
     background-color: hsl(171, 66%, 44%);
@@ -50,6 +58,35 @@ header {
 .mac {
     background-color: hsl(233, 100%, 69%);
     box-shadow: 2px 4px 2px hsl(233, 100%, 66%);
+}
+.computer, .devices {
+    margin-top: var(--topMargin);
+}
+.sec-3 h3 {
+    margin-top: 0;
+}
+.sec-3 > div {
+    margin-bottom: 5rem;
+}
+.sec-3 div div {
+    margin-top: var(--topMargin);
+}
+footer {
+    background-color: hsl(200, 12%, 81%);
+    padding: 1rem;
+}
+footer a,
+.sec-4 img {
+    display: block;
+    margin: 1.3rem auto;
+}
+a:hover {
+    color: hsl(171, 66%, 39%);
+}
+footer a {
+    text-decoration: none;
+    color: grey;
+    transition: color .5s;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); } 
